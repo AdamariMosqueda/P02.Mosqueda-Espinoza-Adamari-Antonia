@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Practica 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <ion-card class="Cabecera">
+<ion-card-header> 
+  <ion-card-title> Ingrese su informacion </ion-card-title>
+</ion-card-header>
+  
+ </ion-card>
+
+  <ion-item>
+    <ion-label position="floating">Apellido Paterno</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Apellido Materno</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Nombres</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    
+    <ion-checkbox color="secondary"></ion-checkbox>
+    <ion-label> Soy alumno/a </ion-label>
+  </ion-item>
+
+
+  <ion-list>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label>Sexo</ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label>Masculino</ion-label>
+        <ion-radio slot="start" value="biff" checked></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Femenino</ion-label>
+        <ion-radio slot="start" value="griff"></ion-radio>
+      </ion-item>
+  
+    </ion-radio-group>
+  </ion-list>
+    <ion-button shape="round" color="secondary" expand="block">Enviar
+      <ion-icon slot="end" name="star"></ion-icon>
+    </ion-button>
+ 
+  
+</ion-content>
